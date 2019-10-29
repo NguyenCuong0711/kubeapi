@@ -1,0 +1,17 @@
+# Docker compose
+# Mục đích quản lý nhiều image 
+# Trong một docker composer có thể cấu hình cho nhiều image
+# version Thể hiện templete của docker compose
+version: '3'
+
+services:
+  # Tên dịch vụ. 
+  demo1.0:
+    # Tên image
+    image: demo:1.1    # map port
+    ports:
+      - '8003:80'
+
+      
+
+
